@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Tilt+Neon&family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Tilt+Neon&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+    font-family: 'Ubuntu', sans-serif
+}
+
+.menu {
+    background-image: linear-gradient(90deg, rgba(40, 65, 37, 0.945) 0.2%, rgba(0, 128, 0, 0.856) 99.7%, rgba(0, 0, 0, 0.897));
+    padding: 18px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    border-bottom: 2px solid rgb(12, 65, 65);
+    box-shadow: rgba(0, 0, 0, 0.37) 0px 15px 20px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 11px -18px inset, rgba(0, 0, 0, 0.37) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.37) 0px 15px 20px -12px inset;
+}
+
+.menu h1 {
+    color: rgba(255, 255, 255, 0.904);
+    padding-right: 250px;
+    font-family: 'Tilt Neon', sans-serif;
+    margin: 20px;
+}
+
+#menu-h {
+    text-align: center;
+}
+
+#menu-h ul {
+    list-style: none;
+    padding: 0;
+    background-color: rgba(37, 37, 39, 0.849);
+    border-bottom: 2px solid rgb(12, 65, 65);
+}
+
+#menu-h ul li {
+    display: inline;
+    margin: 60px;
+}
+
+#menu-h ul li a {
+    font-size: 18px;
+    display: inline-block;
+    width: 200px;
+    padding: 15px;
+    color: aliceblue;
+    text-decoration: none;
+    transition: all .4s;
+}
+
+#menu-h li a:hover {
+    background-color: rgb(24, 139, 233);
+}
