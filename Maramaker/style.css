@@ -9,21 +9,29 @@
     font-family: 'Ubuntu', sans-serif
 }
 
+
 .menu {
     background-image: linear-gradient(90deg, rgba(40, 65, 37, 0.945) 0.2%, rgba(0, 128, 0, 0.856) 99.7%, rgba(0, 0, 0, 0.897));
     padding: 18px;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
     border-bottom: 2px solid rgb(12, 65, 65);
     box-shadow: rgba(0, 0, 0, 0.37) 0px 15px 20px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 11px -18px inset, rgba(0, 0, 0, 0.37) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.37) 0px 15px 20px -12px inset;
 }
 
+.marca {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
 .menu h1 {
     color: rgba(255, 255, 255, 0.904);
-    padding-right: 250px;
     font-family: 'Tilt Neon', sans-serif;
-    margin: 20px;
+    margin-left: 20px;
+}
+
+.menu img {
+    margin-right: 20px;
+
 }
 
 #menu-h {
